@@ -19,3 +19,20 @@ h1{
 p{
     font-family: Funnel Sans;
 }
+.toRight {
+    text-align: right;
+}
+.toCenter {
+    text-align: center;
+}
+.white {
+    color: white; 
+}
+#bold {
+    font-weight: bold;
+    color: white;
+}
+img {
+    width: auto;
+    height: 250px;
+}
