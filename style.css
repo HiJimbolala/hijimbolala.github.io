@@ -34,5 +34,24 @@ p{
 }
 img {
     width: auto;
-    height: 250px;
+    height: 130px;
+}
+nav{
+    background-color: #09637E;
+    text-align: right;
+}
+nav a{
+    color: #7AB2B2;
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+    border-radius: 20%;
+}
+nav a:hover {
+    background-color:#088395
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
