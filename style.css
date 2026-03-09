@@ -55,3 +55,9 @@ nav{
     justify-content: space-between;
     align-items: end;
 }
+label{
+    color: white;
+}
+input{
+    padding: 1%;
+}

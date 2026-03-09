@@ -23,9 +23,39 @@
     
     <h1>Contacts</h1>
     <hr>
-    Contacts will be on the left side descending (right side empty?) <br>
-    Schedule will also be on the left descending <br> 
-    Gonna sponsor some friends if there is free space   
+<section>
+    <h2>Contact Form</h2>
+    <form
+ action="https://form-to-email.steamc.workers.dev/"
+ method="post"
+>
+        <input type="text" name="send-to" value="jrosariocarrasco@brooklynsteamcenter.org" hidden>
+        
+        <label>Name</label>
+        <input type="text" placeholder="Name" name="Full_name">
+        
+        <br>
+        
+        <label>Email:</label>
+        <input type="email" placeholder="jdoe@example.com" name="Email_address">
+        
+        <br>
+        
+        <label>Reason:</label>
+        
+        <br>
+
+        <textarea placeholder="Your website is cool..." name="comments"></textarea>
+
+        <br>
+
+        <input type="reset">
+
+        <button type="submit">
+            Contact Me!
+        </button>
+    </form>
+</section>
     <hr>   
 </body>
 </html>
