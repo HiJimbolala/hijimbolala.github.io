@@ -59,5 +59,14 @@ label{
     color: white;
 }
 input{
-    padding: 1%;
+    width: auto;
+    box-sizing: border-box;
+}
+#boxone{
+    padding: 16px;
+    background-color: #088395;
+    
+}
+summary:hover{
+    text-decoration: underline;
 }
