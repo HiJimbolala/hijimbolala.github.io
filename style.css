@@ -34,7 +34,7 @@ p{
 }
 img {
     width: auto;
-    height: 130px;
+    height: 120px;
 }
 nav{
     background-color: #09637E;
@@ -45,7 +45,7 @@ nav a{
     text-decoration: none;
     padding: 16px;
     display: inline-block;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 nav a:hover {
     background-color:#088395
@@ -62,11 +62,51 @@ input{
     width: auto;
     box-sizing: border-box;
 }
-#boxone{
-    padding: 16px;
+#box{
+    padding: 10px;
     background-color: #088395;
-    
+    border-radius: 10%
 }
 summary:hover{
     text-decoration: underline;
+}
+.colorsome{
+    color: rgb(159, 218, 255);
+}
+.layoutc{
+    display: flex;
+    gap: 10px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.sideleft{
+    width: 300px;
+    flex-shrink: 0;
+    background: #088395;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main-content {
+    flex: 1;
+    background: #088395;
+    padding: 20px;
+    border-radius: 8px;
+}
+.siderow{
+    width: 180px;
+    height: fit-content;
+    flex-shrink: 0;
+    background: #088395;
+    padding: 20px;
+    border-radius: 8px;
+}
+.layoutr{
+    display: flex;
+    gap: 10px;
+    min-height: 100vh;
+    flex-direction: row;
+}
+@media screen and (max-width: 480px){
+    
 }
