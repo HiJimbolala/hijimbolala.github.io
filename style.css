@@ -45,7 +45,7 @@ nav a{
     text-decoration: none;
     padding: 16px;
     display: inline-block;
-    border-radius: 15%;
+    border-radius: 20px;
 }
 nav a:hover {
     background-color:#088395
@@ -85,6 +85,7 @@ summary:hover{
     background: #088395;
     padding: 20px;
     border-radius: 8px;
+    
 }
 
 .main-content {
@@ -106,6 +107,7 @@ summary:hover{
     display: flex;
     gap: 10px;
     flex-direction: row;
+    
 }
 #boxx{
     padding: 10px;
@@ -114,3 +116,33 @@ summary:hover{
     width: fit-content;
     height: fit-content;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+}
+.contained{
+    flex: 1 1 200px;
+    background: #088395;
+    padding: 20px;
+    border-radius: 8px;   
+}
+.pic-of-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hpic img {
+    height: 200px;
+
+}
+.hpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+video{
+    width: 300px;    
+}
+
